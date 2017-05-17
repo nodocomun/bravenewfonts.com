@@ -1,0 +1,12 @@
+/* Webfont: Type-Bold */@font-face {
+    font-family: 'Type02';
+    src: url('Type-Bold.eot'); /* IE9 Compat Modes */
+    src: url('Type-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Type-Bold.woff') format('woff'), /* Modern Browsers */
+         url('Type-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Type-Bold.svg#Type-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

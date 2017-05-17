@@ -1,0 +1,12 @@
+/* Webfont: Kollektif */@font-face {
+    font-family: 'Kollektif';
+    src: url('Kollektif.eot'); /* IE9 Compat Modes */
+    src: url('Kollektif.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Kollektif.woff') format('woff'), /* Modern Browsers */
+         url('Kollektif.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Kollektif.svg#Kollektif') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

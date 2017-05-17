@@ -1,0 +1,509 @@
+<html lang="ing">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=380" />
+
+	<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+	<title>Brave New Fonts</title>
+
+	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/mousewheel.js"></script>
+
+	<link rel="stylesheet" href="css/ios7-switches.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="fonts/Kollektif.css" type="text/css">
+	<link rel="stylesheet" href="fonts/Kollektif-Italic.css" type="text/css">
+	<link rel="stylesheet" href="fonts/Kollektif-Bold.css" type="text/css">
+	<link rel="stylesheet" href="fonts/Kollektif-BoldItalic.css" type="text/css">
+	<link rel="stylesheet" href="fonts/Type.css" type="text/css">
+	<link rel="stylesheet" href="fonts/Type-Bold.css" type="text/css">
+	<link rel="stylesheet" href="fonts/FivePixel.css" type="text/css">
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64393635-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+</head>
+<body>
+
+
+	<div id="header" class="noSelect">
+		<img id="logo" src="img/logo01.svg">
+		<div id="menu"><br>
+			<div style="padding-bottom:10px;" id="kollektif">FONTS</div>
+			<div class="menu-item" id="kollektif">Kollektif</div>
+			<div class="menu-item" id="type03">Type03</div>
+			<div class="menu-item" id="type02">Type02</div>
+			<div class="menu-item" id="fivepixel">Five Pixel</div><br>
+			<div class="seperator">---------</div>
+			<div class="menu-item" id="shop" >Shop</div>
+			<div class="menu-item" id="joinus" >Join Us</div>
+			<div class="seperator">---------</div>
+			<div class="menu-item2" id="at">@</div><br>
+			<div class="menu-item2" id="fb">Fb</div><br>
+			<div class="menu-item2" id="inst">Inst</div><br>
+			
+		</div>
+
+		<div id="infoBox">INFO</div>
+	</div>
+
+	<div id="content">
+
+		<div class="contentContainer" id="homeContainer">
+			<div class="fElement" style="left:50px; top:0px; width:715px; height:290px;" onmouseover="setInfoBox('bnf (brave new fonts) is a collobrative type foundry presents a series of typefaces created by newbee type designers. Its open for everyone who is in love with finding new forms for text.')" onmouseout="clearInfoBox()">
+				<div class="" style="margin-left:60px; margin-top:15px;">
+					<img class="screensaver" id="screensaver-01" src="img/screensaver/screensaver-01.svg">
+					<img class="screensaver" id="screensaver-02" src="img/screensaver/screensaver-02.svg">
+					<img class="screensaver" id="screensaver-03" src="img/screensaver/screensaver-03.svg">
+					<img class="screensaver" id="screensaver-04" src="img/screensaver/screensaver-04.svg">
+					<img class="screensaver" id="screensaver-05" src="img/screensaver/screensaver-05.svg">
+					<img class="screensaver" id="screensaver-06" src="img/screensaver/screensaver-06.svg">
+					<img class="screensaver" id="screensaver-07" src="img/screensaver/screensaver-07.svg">
+					<img class="screensaver" id="screensaver-08" src="img/screensaver/screensaver-08.svg">
+				</div>
+			</div>
+			
+			
+		</div>
+
+
+
+
+		<div class="contentContainer" id="kollektifContent">
+			
+
+			<div class="sElement" style="color:white;" onmouseover="setInfoBox('Kollektif is a typeface designed as an alternative to geometric and low-contrast typefaces. It can be used for both display and text use in printed media or web  applications. Kollektif has two styles and two weights.')" onmouseout="clearInfoBox()">
+				<img height="600px" src="img/specs/duelmen02.jpg">
+				<div style="position:relative; top:-190px; padding-left:5px; width:200px; left:252px; font-style:italic; font-size:30px; line-height:33px; letter-spacing:1px;">
+					<span class="noSelect" style="font-weight:normal; font-style:normal;">Kollektif</span><br>
+					<span class="noSelect" style="font-weight:regular; font-style:italic;">Kollektif</span><br>
+					<span class="noSelect" style="font-weight:bold; font-style:normal;">Kollektif</span><br>
+					
+					<span class="noSelect" style="font-weight:bold; font-style:italic;">Kollektif</span>
+				</div>
+				<div class="noSelect" style="position:relative; top:-700px; padding-left:5px; width:200px; left:234px; font-weight:bold; font-size:400px;">K</div>
+			</div>
+			
+			<img class="sElement" src="img/specs/koll-01.svg">
+			<img class="sElement" src="img/specs/koll-03.svg">
+			<img class="sElement" src="img/specs/koll-02.svg">
+
+			<div class="sElement">
+				<div class="textControl">
+					<select class="fontSelector selector" onchange="changeFont(this);">
+	  					<option value="reg">Kollektif Regular</option>
+	  					<option value="ita">Kollektif Italic</option>
+	  					<option value="bol" selected="selected">Kollektif Bold</option>
+	  					<option value="bolit">Kollektif Bold Italic</option>
+					</select>
+
+					<select class="fontSizeSelector selector" onchange="changeFontSize(this);">
+	  					<option value="12">12</option>
+	  					<option value="15">15</option>
+	  					<option value="18">18</option>
+	  					<option value="21">21</option>
+	  					<option value="27">25</option>
+	  					<option value="30">30</option>
+	  					<option value="39">39</option>
+	  					<option value="48">48</option>
+	  					<option value="64" selected="selected">64</option>
+	  					<option value="90">90</option>
+					</select>
+
+					<div class="switch">
+	  					<input onchange="changeBackground(this);" type="checkbox" id="cb" checked />
+	  					<label for="cb"></label>
+					</div>
+				</div>
+				<textarea onmouseover="setInfoBox('Click to type!')" onmouseout="clearInfoBox()" onclick="clearInfoBox();" class="tryTextarea" id="tryKollektif-01" style="width:900px; font-style:normal; font-size:105px; padding:10px;" onfocus="clearContents(this); clearInfoBox()" rows="4" cols="10">Type! Your! Text!</textarea>
+			</div>
+
+
+			<div class="sElement" style="width: 300px; color:black;  word-wrap: break-word; font-weight:regular; font-style:normal; font-size:30px; line-height: 38px;">The Vulture Mine was a gold mine and settlement in Maricopa County, Arizona, United States. The mine began in 1863 and became the most productive gold mine in Arizona history. From 1863 to 1942, the mine produced 340,000 ounces of gold and 260,000 ounces of silver. Historically, the mine attracted more than 5,000 people to the area, and is credited with founding the town of Wickenburg, Arizona.</div>
+
+			<img class="sElement" style="height:1200px;" src="img/specs/koll-04.svg" onmouseover="setInfoBox('Kollektif has 15 standart and discreationary ligatures')" onmouseout="clearInfoBox()">
+
+			<div class="sElement" style="width: 800px; word-wrap: break-word; font-weight:regular; font-style:italic; font-size:120px; line-height: 115px;">Bir zamanlar muhalefet dendiğinde pek çok renkli siyasetçinin tek çatı altında toplandığı rengarenk görüntüler oluşurdu. Ancak şimdi "Ana muhalefet" "Yavru muhalefet" "Paralel" "Öteki muhalefet" gibi pek çok muhalif çeşidi türedi ve bunları bir arada görmek neredeyse imkansız. Fakat 90'larda muhalefet öyle renkliydi ki, adeta BBG evi izler gibi izlerdik yaşananları. Bir zamanlar mal varlıkları da eleştirilebiliyordu siyasilerin. Gazinolar, evler, yatlar, katlar hatta Jetskiler...</div>
+
+			<div class="sElement noSelect" onclick="window.open('https://letterstoloveliza.wordpress.com','_blank');" style="cursor:pointer; color:blue; width: 300px; word-wrap: break-word; font-weight:bold; font-size:18px; line-height: 27px;" onmouseover="setInfoBox('letterstoloveliza .wordpress.com')" onmouseout="clearInfoBox()">Dear LoveLiza,<br><br>I completely oppose the current government. As I am a graphic designer I would like to design a poster to voice my opinion, but I have a feeling it will have no real effect.<br>Can one poster really change the world?<br><br>Anonymous, Europe<br><br><br><span style="color:black;">Dear European,<br><br>“If you think you are too small to make a difference, try sleeping in a closed room with a mosquito.” -African Proverb<br><br>LoveLiza</span></div>
+
+			<div class="sElement">
+				<div class="textControl">
+					<select class="fontSelector selector" onchange="changeFont(this);">
+	  					<option value="reg">Kollektif Regular</option>
+	  					<option value="ita">Kollektif Italic</option>
+	  					<option value="bol">Kollektif Bold</option>
+	  					<option value="bolit" selected="selected">Kollektif Bold Italic</option>
+					</select>
+
+					<select class="fontSizeSelector selector" onchange="changeFontSize(this);">
+	  					<option value="12">12</option>
+	  					<option value="15">15</option>
+	  					<option value="18" selected="selected">18</option>
+	  					<option value="21">21</option>
+	  					<option value="27">25</option>
+	  					<option value="30">30</option>
+	  					<option value="39">39</option>
+	  					<option value="48">48</option>
+	  					<option value="64">64</option>
+	  					<option value="90">90</option>
+					</select>
+
+					<div class="switch">
+	  					<input onchange="changeBackground(this);" type="checkbox" id="cb2" checked />
+	  					<label for="cb2"></label>
+					</div>
+				</div>
+				<textarea onmouseover="setInfoBox('Click to type!')" onmouseout="clearInfoBox()" onclick="clearInfoBox();" class="tryTextarea" id="tryKollektif-01" onfocus="clearContents(this);" rows="4" cols="10" style="font-size:30px; line-height:120px; ">A is for Apple,&#10;The designers best tool&#10;iPhone, iPad, and iMac too&#10;iWatch forget it, it just ain’t cool</textarea>
+			</div>
+
+			<img class="sElement" src="img/specs/koll-sb.jpg" onmouseover="setInfoBox('Sodium hypochlorite is a chemical compound with the formula NaClO. It is composed of a sodium cation (Na+) and a hypochlorite anion (ClO−); it may also be viewed as the sodium salt of hypochlorous acid. When dissolved in water it is commonly known as bleach, or liquid bleach.')" onmouseout="clearInfoBox()">
+
+			<img class="sElement" src="img/specs/koll-07.svg">
+
+			<div class="sElement">
+				<div class="noSelect" id="textAnimation01" onmouseover="setInfoBox('A poem from William Sheakspare')" onmouseout="clearInfoBox()"></div>
+			</div>
+
+
+
+
+			<div class="sElement" style="width: 900px; word-wrap: break-word; font-weight:bold; font-style:normal; font-size:150px; line-height: 140px;">Seymour was born in London. His father was an amateur artist and art dealer, whose other business dealings (as a banker, goldsmith, and diamond merchant) afforded young Seymour the leisure time to study art on his own, either his father's or the art at the Virtuosi Club of St. Luke - a gentleman's club his father belonged to, specializing in art. In a short time the boy was a self-taught artist, familiar with many of the prominent artists of the period.</div>
+
+			<div class="sElement noSelect" style="margin-right:100px;" id="textAnimation02"  onclick="clearInfoBox();" ></div>
+
+			<div class="sElement" style="width: 600px; word-wrap: break-word; font-weight:bold; font-size:80px; line-height: 70px;">Mellitic acid may be prepared by warming mellite with ammonium carbonate, boiling off the excess of the ammonium salt, and adding ammonia to the solution. The precipitated alumina is filtered off, the filtrate evaporated, and the ammonium salt of the acid purified by recrystallization. The ammonium salt is then converted into the lead salt by precipitation with lead acetate, and the lead salt is then decomposed by hydrogen sulfide. The acid may also be prepared by the oxidation of pure carbon or hexamethyl benzene, by alkaline potassium permanganate in the cold, or by hot concentrated nitric acid.</div>
+
+
+
+			<div class="sElement">
+				<img class="" id="kollektifAlt01" style="height:600px;" src="img/specs/koll-05.svg">
+				<img class="" id="kollektifAlt02" style="height:600px;" src="img/specs/koll-06.svg">
+			</div>
+
+
+			<div class="sElement" style="width:430px; font-family:'Kollektif';">
+				<div class="downButton"><a href="fonts/kollektif.zip" style="color:black; text-decoration:none;" target="_blank" onClick="_gaq.push(['_trackEvent', 'Download', 'PDF', 'Kollektif']);"><span class="downButtonLink">DOWNLOAD KOLLEKTİF</span></a></div>
+				<div style="padding:25 10 25 0px; width:auto;"><span style="color:black;">BY DOWNLOADING AND/OR INSTALLING THIS FONT YOU AGREE TO THIS LICENSE.</span><br><br>• This font is freeware. You can use it freely for all your personal and commercial work.<br><br>• The font files may not be modified without permission from Doğu Kaya / Brave New Fonts.<br><br>• This font may not be sold.<br><br>• Embedding this font in a PDF document is allowed.<br><br>• Embedding this font in a web page with a @font-face declaration is allowed once you credit Brave New Fonts with a link somewhere on your site.</div>
+				<div class="imageContainer">
+					<img class="downImage01" style="width:auto;" src="img/specs/koll-10.svg">
+					<img class="downImage02" style="width:auto;" src="img/specs/koll-11.svg">
+				</div>
+				
+			</div>
+		</div>
+
+		
+
+		<div class="contentContainer" id="type03Content">
+			<img class="fElement" id="space" style="height:2000px; top:0px; left:6620px; padding:0 0 0 0;" src="img/specs/type032-01.svg">
+
+
+
+			<img class="sElement piston2" style="margin-left:100px;" src="img/specs/type03-01.svg">
+			<img class="sElement piston" src="img/specs/type03-02.svg">
+			<img class="sElement piston2" src="img/specs/type03-03.svg">
+			<img class="sElement piston" src="img/specs/type03-04.svg">
+			<img class="sElement piston2" src="img/specs/type03-05.svg">
+			<img class="sElement piston" style="margin-right:50px;"  src="img/specs/type03-06.svg">
+			
+			<img class="sElement" src="img/specs/type03-07.svg" >
+			<img class="sElement colorfulBackground" src="img/specs/type032-05.svg" onmouseover="setInfoBox('An anode is an electrode through which conventional current flows into a polarized electrical device and a cathode is the electrode from which a conventional current leaves a polarized electrical device.')" onmouseout="clearInfoBox()">
+			<img class="sElement" src="img/specs/type03-12.svg">
+
+			<div class="sElement">
+				<div class="textControl">
+
+					<select class="fontSizeSelector selector" onchange="changeFontSize(this);">
+	  					<option value="12">12</option>
+	  					<option value="15">15</option>
+	  					<option value="18">18</option>
+	  					<option value="21">21</option>
+	  					<option value="27">25</option>
+	  					<option value="30">30</option>
+	  					<option value="39">39</option>
+	  					<option value="48">48</option>
+	  					<option value="64" selected="selected">64</option>
+	  					<option value="90">90</option>
+					</select>
+
+					<div class="switch">
+	  					<input onchange="changeBackground(this);" type="checkbox" id="cb3" checked />
+	  					<label for="cb3"></label>
+					</div>
+				</div>
+				<textarea onmouseover="setInfoBox('Click to type!')" onmouseout="clearInfoBox()" onclick="clearInfoBox();" class="tryTextarea" id="tryKollektif-02" style="width:900px; font-size:105px; font-weight:normal; font-style:normal; font-family:'Type03'; padding:10px;" onfocus="clearContents(this); clearInfoBox()" rows="4" cols="10">Type! Your! Text!</textarea>
+			</div>
+
+			
+			
+
+			<div class="sElement" style="width: 800px; word-wrap: break-word; font-weight:normal; font-style:normal; font-family:'Type03'; font-size:60px; line-height: 50px;">THE CLIFF MAY EXPERIMENTAL HOUSE WAS BUILT BY CLIFF MAY IN THE EARLY 1950S AS HIS FAMILY'S FOURTH HOUSE AND DEVELOPED TO PUSH HIS IDEAS OF "BRINGING THE OUTDOORS IN" AND OPEN INTERIOR PLANNING. THE ONE-STORY, 1800-SF HOUSE IS A SIMPLE RECTANGLE IN PLAN WITH A 288-SQUARE FOOT OPEN SKYLIGHT IN THE CENTER. MAY'S FAMILY OF FIVE CREATED DIFFERENT ROOMS BY USING MOVABLE PARTITIONS. THE FAMILY RESIDED IN THE HOME FOR TWO YEARS, WHILE MAY DETERMINED HOW THE SIZEABLE SKYLIGHT AND OPEN PLAN FUNCTIONED FOR THE RESIDENTS THERE. FROM THIS EXPERIENCE, THE HOME "MANDALAY" WAS DESIGNED BY RAY, WHICH BECAME THE LAST HOME FOR HIS FAMILY.</div>
+
+			<img class="sElement" onmouseover="setInfoBox('Maceo Parker is an American funk and soul jazz saxophonist, best known for his work with James Brown in the 1960s, as well as Parliament-Funkadelic in the 1970s. Parker was a prominent soloist on many of Browns hit recordings, and a key part of his band, playing alto, tenor and baritone saxophones. Since the early 1990s, he has toured under his own name.')" onmouseout="clearInfoBox()" src="img/specs/type03-vinly-02.svg">
+
+			<img class="sElement" onmouseover="setInfoBox('Majuscule Letters')" onmouseout="clearInfoBox()" src="img/specs/type03-11.svg">
+
+			
+
+
+
+			<img class="sElement" onmouseover="setInfoBox('Minuscule Letters')" onmouseout="clearInfoBox()" src="img/specs/type03-09.svg">
+
+			<img class="sElement" onmouseover="setInfoBox('Numerals')" onmouseout="clearInfoBox()" src="img/specs/type03-10.svg">
+
+			<div class="sElement" style="margin-right:100px;" id="textAnimation03"></div>
+
+
+			
+
+			<div class="sElement" style="width: 800px; word-wrap: break-word; font-weight:normal; font-style:normal; font-family:'Type03'; font-size:30px; line-height: 29px;">U.S. President Andrew Harrison (a fictional character) has a summit with Adolf Hitler at Reykjavík, Iceland. The meeting goes badly, the two leaders sharply confront each other, and Hitler secretly decides to accelerate preparations for a surprise attack on both the United States and the United Kingdom. As part of these preparations, a beautiful German spy seduces and suborns the White House Chief of Staff and makes him a key German spy. The book's protagonist, Lieutenant Commander James Martel, at the incipient Head of Naval Intelligence at the American Embassy in Berlin, is one of the few who suspects the gathering storm, watching the new weapons displayed at the parade commemorating Germany's victory over the Soviet Union and encountering the well-known commando Otto Skorzeny who is his main opponent throughout the book. Skorzeny makes meticulous secret preparations for raids to destroy the American atomic bomb programs in Oak Ridge National Laboratory and Los Alamos National Laboratory. (During the war with Japan, the Manhattan Project was put on the back.</div>
+
+			<div class="sElement" style="width:430px; font-family:'Kollektif';">
+				<div class="downButton"><a href="fonts/type03.zip" style="color:black; text-decoration:none;" target="_blank"><span class="downButtonLink" >DOWNLOAD TYPE03</span></a></div>
+				<div style="padding:25 10 25 0px; width:auto;"><span style="color:black;">BY DOWNLOADING AND/OR INSTALLING THIS FONT YOU AGREE TO THIS LICENSE.</span><br><br>• This font is freeware. You can use it freely for all your personal and commercial work.<br><br>• The font files may not be modified without permission from Doğu Kaya / Brave New Fonts.<br><br>• This font may not be sold.<br><br>• Embedding this font in a PDF document is allowed.<br><br>• Embedding this font in a web page with a @font-face declaration is allowed once you credit Brave New Fonts with a link somewhere on your site.</div>
+				<div class="imageContainer">
+					<img class="downImage01" style="width:auto;" src="img/specs/koll-10.svg">
+					<img class="downImage02" style="width:auto;" src="img/specs/koll-11.svg">
+				</div>
+				
+			</div>
+
+			
+
+		</div>
+
+
+		<div class="contentContainer" id="type02Content" style="font-family:'Type02';">
+			<div class="sElement" style="font-size:170px; margin-right: 10px;">
+				<span style="position:absolute; top:20; left:270;">TyPE02</span> 
+				<img height="500px" style="padding:0px; margin-top:85px;" src="img/specs/type02-image01.jpg" onmouseover="setInfoBox('Alexander Rodchenko, Stairs. 1930 Artist print. Rodchenko archives')" onmouseout="clearInfoBox()">
+			</div>
+
+			<div class="sElement" style="font-size:40px; width:500px; line-height:39px; margin-left:10px; margin-top:81px;">
+				 TYPE02 TAKES INFLUENCE FROM EARLY SOVIET ERA RUSSIAN ARTISTS LIKE RODCHENKO, POPOVA AND INTEGRATES THIS LOOK INTO A FAT GOTHIC TYPEFACE. IT ALSO HAS ALTERNATIVE SOLUTION FOR ACCENT CHARACHTERS TO MAKE THE TEXT MORE SOLID AND EASY TO BUILD. 
+			</div>
+
+			<div class="sElement">
+				<img class="" id="type02up" style="width:900px; margin-top:340px;" src="img/specs/type02-07.svg">
+				<img class="" id="type02down" style="width:900px; position:absolute; top:30px; left:1522px;" src="img/specs/type02-08.svg">
+			</div>
+
+			<img class="sElement" src="img/specs/type02-01.svg">
+
+			<img class="sElement" style="padding:0 60 0 60;" src="img/specs/type02-05.svg">
+			<img class="sElement" style="padding:0 60 0 0;"src="img/specs/type02-02.svg" onmouseover="setInfoBox('This is a Swedish flag')" onmouseout="clearInfoBox()">
+			<img class="sElement" src="img/specs/type02-06.svg" onmouseover="setInfoBox('Alternate Accented Charachters')" onmouseout="clearInfoBox()">
+			<img class="sElement"  style="padding:0 60 0 60;" src="img/specs/type02-03.svg" onmouseover="setInfoBox('(1976 Ingmar Bergman) The film shows four women moving in a crowded, closed room to the music of Monteverdi. They represent women living by passing on a role that is passed down to them for generations. Two of the dancers are damned souls that come to life, the third is death and the fourth a child born free, but forced into the other female roles.')" onmouseout="clearInfoBox()">
+
+			<div class="sElement">
+				<div class="textControl">
+
+					<select class="fontSizeSelector selector" onchange="changeFontSize(this);">
+	  					<option value="12">12</option>
+	  					<option value="15">15</option>
+	  					<option value="18">18</option>
+	  					<option value="21">21</option>
+	  					<option value="27">25</option>
+	  					<option value="30">30</option>
+	  					<option value="39">39</option>
+	  					<option value="48">48</option>
+	  					<option value="64">64</option>
+	  					<option value="90" selected="selected">90</option>
+					</select>
+
+					<div class="switch">
+	  					<input onchange="changeBackground(this);" type="checkbox" id="cb4" checked />
+	  					<label for="cb4"></label>
+					</div>
+				</div>
+				<textarea onmouseover="setInfoBox('Click to type!')" onmouseout="clearInfoBox()" onclick="clearInfoBox();" class="tryTextarea" id="tryKollektif-03" style=" font-family: 'Type02'; font-weight:normal; font-style:normal; width:900px; font-size:150px; padding:10px;" onfocus="clearContents(this); clearInfoBox()" rows="4" cols="10">Type! Your! Text!</textarea>
+			</div>
+
+			<div class="sElement" style="font-size:40px; padding:0 0 0 60; width:700px; line-height:44px; margin-left:10px; margin-top:39px;">UNICASE<br>
+				 SWEDEN IS A SCANDINAVIAN COUNTRY IN NORTHERN EUROPE. IT BORDERS NORWAY AND FINLAND, AND IS CONNECTED TO DENMARK BY A BRIDGE-TUNNEL ACROSS THE ÖRESUND. AT 450,295 SQUARE KILOMETRES (173,860 SQ MI), SWEDEN IS THE THIRD-LARGEST COUNTRY IN THE EUROPEAN UNION BY AREA, WITH A TOTAL POPULATION OF OVER 9.7 MILLION. SWEDEN SUBSEQUENTLY HAS A LOW POPULATION DENSITY OF 21 INHABITANTS PER SQUARE KILOMETRE (54/SQ MI), WITH THE HIGHEST CONCENTRATION IN THE SOUTHERN HALF OF THE COUNTRY. APPROXIMATELY 85 PERCENT OF THE POPULATION LIVES IN URBAN AREAS.[11] SOUTHERN SWEDEN IS PREDOMINANTLY AGRICULTURAL, WHILE THE NORTH IS HEAVILY FORESTED. SWEDEN IS PART OF THE GEOGRAPHICAL AREA OF FENNOSCANDIA.
+			</div>
+
+			<div class="sElement" style="font-size:40px; color:blue; width:700px; line-height:44px; margin-left:10px; margin-top:39px;">UNICASE ALT<br>
+				 Sweden is a Scandinavian country in Northern Europe. It borders Norway and Finland, and is connected to Denmark by a bridge-tunnel across the Öresund. At 450,295 square kilometres (173,860 sq mi), Sweden is the third-largest country in the European Union by area, with a total population of over 9.7 million. Sweden subsequently has a low population density of 21 inhabitants per square kilometre (54/sq mi), with the highest concentration in the southern half of the country. Approximately 85 percent of the population lives in urban areas.[11] Southern Sweden is predominantly agricultural, while the north is heavily forested. Sweden is part of the geographical area of Fennoscandia.
+			</div>
+
+			
+
+			<img class="sElement"style="height:300px; margin-top:0px; padding:0 0 0 60;" src="img/specs/type02-04.svg" onmouseover="setInfoBox('Swedish > hi,hello')" onmouseout="clearInfoBox()">
+			
+			
+
+			
+
+
+			<img class="drag" style="height:400px; left:3340px; top:420;" src="img/specs/type02-image02.jpg" onmouseover="setInfoBox('A scene from De Fördömda Kvinnornas Dans / 1976   Ingmar Bergman')" onmouseout="clearInfoBox()">
+
+			<div class="sElement" style="width:430px; font-family:'Kollektif';">
+				<div class="downButton"><a href="fonts/type02.zip" style="color:black; text-decoration:none;" target="_blank"><span class="downButtonLink" >DOWNLOAD TYPE02</span></a></div>
+				<div style="padding:25 10 25 0px; width:auto;"><span style="color:black;">BY DOWNLOADING AND/OR INSTALLING THIS FONT YOU AGREE TO THIS LICENSE.</span><br><br>• This font is freeware. You can use it freely for all your personal and commercial work.<br><br>• The font files may not be modified without permission from Doğu Kaya / Brave New Fonts.<br><br>• This font may not be sold.<br><br>• Embedding this font in a PDF document is allowed.<br><br>• Embedding this font in a web page with a @font-face declaration is allowed once you credit Brave New Fonts with a link somewhere on your site.</div>
+				<div class="imageContainer">
+					<img class="downImage01" style="width:auto;" src="img/specs/koll-10.svg">
+					<img class="downImage02" style="width:auto;" src="img/specs/koll-11.svg">
+				</div>
+				
+			</div>
+
+		</div>
+
+
+
+
+
+
+		<div class="contentContainer" style="font-family:'FivePixel';" id="fivepixelContent">
+			<img class="sElement" style="padding:5 0 0 0; height:700px;" src="img/specs/fivepixel-image01.jpg">
+
+			<div class="sElement" style="font-size:40px; width:545px; line-height:47px; letter-spacing:2px; margin-left:60px;">
+				 Five Pixel is an experimental unicase typeface based on the idea of creating a typeface in a limited space.<br>All charachters created in<br> 5x4 pixel area including <br>accent charachters.
+			</div>
+
+
+			<img class="fElement" style="height:600px; padding:5 0 0 0;" src="img/specs/fivepixel-01.svg">
+			<img class="sElement" style="padding:0 0 0 0;" src="img/specs/fivepixel-02.svg">
+			<img class="fElement" id="fivePixelRain" style="height:1900px; top:-2000px; left:1200px; padding:0 0 0 0;" src="img/specs/fivepixel-03.svg">
+			<img class="sElement" style="padding:5 60 0 0; top:80px;" src="img/specs/fivepixel-04.svg">
+
+			<div class="sElement">
+				<div class="textControl">
+
+					<select class="fontSizeSelector selector" onchange="changeFontSize(this);">
+	  					<option value="12">12</option>
+	  					<option value="15">15</option>
+	  					<option value="18">18</option>
+	  					<option value="21">21</option>
+	  					<option value="27">25</option>
+	  					<option value="30">30</option>
+	  					<option value="39">39</option>
+	  					<option value="48">48</option>
+	  					<option value="64">64</option>
+	  					<option value="90" selected="selected">90</option>
+					</select>
+
+					<div class="switch">
+	  					<input onchange="changeBackground(this);" type="checkbox" id="cb5" checked />
+	  					<label for="cb5"></label>
+					</div>
+				</div>
+				<textarea onmouseover="setInfoBox('Click to type!')" onmouseout="clearInfoBox()" onclick="clearInfoBox();" class="tryTextarea" id="tryKollektif-04" style=" font-family: 'FivePixel'; font-weight:normal; line-height:170px; font-style:normal; width:900px; font-size:150px; padding:10px;" onfocus="clearContents(this); clearInfoBox()" rows="4" cols="10">Type! Your! Text!</textarea>
+			</div>
+
+			<img class="sElement" style="padding:0 60 0 60;" src="img/specs/fivepixel-05.svg">
+
+
+			<img class="sElement" style="height:600px; margin-right:370px;" src="img/specs/fivepixel-image02.jpg">
+			<div class="fElement" style="font-size:30px; width:500px; letter-spacing:2px; line-height:45px; left:6640px;" onmouseover="setInfoBox('Written by Rudy Vanderlans')" onmouseout="clearInfoBox()">
+				 a type specimen can be about anything or nothing, as long as the featured typefaces are prominently displayed. It’s all about exploring and exhibiting the versatility of the typefaces. As such, designing a type specimen can easily become an exercise of style over content, the proverbial crystal goblet turned inside out the goblet intentionally obscuring the content because the content is fake. 
+			</div>
+
+			<img class="sElement" style="padding:0 60 0 100;" src="img/specs/fivepixel-06.svg">
+
+			<div class="sElement" style="font-size:20px; letter-spacing:2px; width:500px; line-height:38px; margin-left:0px;">
+				Nintendo Co., Ltd. is a Japanese multinational consumer electronics company headquartered in Kyoto, Japan. Nintendo is the world's largest video game company by revenue.[8] Founded on September 23, 1889,[2] by Fusajiro Yamauchi, it originally produced handmade hanafuda playing cards.[9] By 1963, the company had tried several small niche businesses, such as cab services and love hotels.
+			</div>
+
+			<div class="sElement" style="width:430px; font-family:'Kollektif';">
+				<div class="downButton"><a href="fonts/fivepixel.zip" style="color:black; text-decoration:none;" target="_blank"><span class="downButtonLink" >DOWNLOAD FIVE PIXEL</span></a></div>
+				<div style="padding:25 10 25 0px; width:auto;"><span style="color:black;">BY DOWNLOADING AND/OR INSTALLING THIS FONT YOU AGREE TO THIS LICENSE.</span><br><br>• This font is freeware. You can use it freely for all your personal and commercial work.<br><br>• The font files may not be modified without permission from Doğu Kaya / Brave New Fonts.<br><br>• This font may not be sold.<br><br>• Embedding this font in a PDF document is allowed.<br><br>• Embedding this font in a web page with a @font-face declaration is allowed once you credit Brave New Fonts with a link somewhere on your site.</div>
+				<div class="imageContainer">
+					<img class="downImage01" style="width:auto;" src="img/specs/koll-10.svg">
+					<img class="downImage02" style="width:auto;" src="img/specs/koll-11.svg">
+				</div>
+				
+			</div>
+
+			
+		</div>
+
+		<div class="contentContainer" id="shopContent">
+			<div class="sElement shopElement noSelect">
+				<img class="shopImage" src="img/shop/shop07.jpg">
+				<img class="shopImage shopimage02" src="img/shop/shop01.jpg">
+				<a class="shopLink" href="mailto:info@bravenewfonts?Subject=I would like to buy Five Pixel Tote Bag" style="color:black; text-decoration:none;" target="_blank">Buy!</a>
+				<div class="shopText">Five Pixel Tote Bag<br>35*40cm Canvas Fabric<br>Within TR: 20$ / Foreign: 30$</div>
+			</div>
+
+			
+
+			<div class="sElement shopElement noSelect">
+				<img class="shopImage" src="img/shop/shop09.jpg">
+				<img class="shopImage shopimage02" src="img/shop/shop06.jpg">
+				<a class="shopLink" href="mailto:info@bravenewfonts?Subject=I would like to buy Kollektif Specimen / Poster" style="color:black; text-decoration:none;" target="_blank">Buy!</a>
+				<div class="shopText">Kollektif Specimen / Poster<br>50*70cm Digital Print<br>Within TR: 15$ / Foreign: 25$</div>
+			</div>
+
+			<div class="sElement shopElement noSelect">
+				<img class="shopImage" src="img/shop/shop08.jpg">
+				<img class="shopImage shopimage02" src="img/shop/shop02.jpg">
+				<a class="shopLink" href="mailto:info@bravenewfonts?Subject=I would like to buy Kollektif Tote Bag" style="color:black; text-decoration:none;" target="_blank">Buy!</a>
+				<div class="shopText">Kollektif Tote Bag<br>35*40cm Canvas Fabric<br>Within TR: 20$ / Foreign: 30$</div>
+			</div>
+
+			<div class="sElement shopElement noSelect">
+				<img class="shopImage" src="img/shop/shop11.jpg">
+				<img class="shopImage shopimage02" src="img/shop/shop04.jpg">
+				<a class="shopLink" href="mailto:info@bravenewfonts?Subject=I would like to buy Five Pixel Specimen / Poster" style="color:black; text-decoration:none;" target="_blank">Buy!</a>
+				<div class="shopText">Five Pixel Specimen / Poster<br>50*70cm Digital Print<br>Within TR: 15$ / Foreign: 25$</div>
+			</div>
+
+			<div class="sElement shopElement noSelect">
+				<img class="shopImage" src="img/shop/shop12.jpg">
+				<img class="shopImage shopimage02" src="img/shop/shop05.jpg">
+				<a class="shopLink" href="mailto:info@bravenewfonts?Subject=I would like to buy Type03 Specimen / Poster" style="color:black; text-decoration:none;" target="_blank">Buy!</a>
+				<div class="shopText">Type03 Specimen / Poster<br>50*70cm Digital Print<br>Within TR: 15$ / Foreign: 25$</div>
+			</div>
+
+			<div class="sElement shopElement noSelect">
+				<img class="shopImage" src="img/shop/shop10.jpg">
+				<img class="shopImage shopimage02" src="img/shop/shop03.jpg">
+				<a class="shopLink" href="mailto:info@bravenewfonts?Subject=I would like to buy Type02 Specimen / Poster" style="color:black; text-decoration:none;" target="_blank">Buy!</a>
+				<div class="shopText">Type02 Specimen / Poster<br>50*70cm Digital Print<br>Within TR: 15$ / Foreign: 25$</div>
+			</div>
+
+			
+
+
+		</div>
+
+		<div class="contentContainer" id="linksContent">
+			<div class="sElement myLinks">
+				
+			</div>
+
+		</div>
+
+		<div class="contentContainer" id="joinusContent">
+			<div class="sElement" id="joinUs"><img style="width:900px; padding-left:20px;" src="img/joinus-02.svg"></div>
+			<div class="fElement" style="left:90px; display:none;" id="joinUs2"><img style="width:900px;" src="img/joinus-03.svg"></div>
+			<div class="fElement" style="left:110px; font-size:14px; line-height:20px; top:430px; width:300px;">Brave New Fonts is open for everyone to collobrate. You can send us finished font files that you designed or sketches or any digital material which gives some idea about your typeface and a short description about it which explains the idea and your influence. We're also waiting for your font ideas to start workshops and work on them together. </div>
+			<a class="shopLink" id="submitWork" href="mailto:info@bravenewfonts?Subject=Hey" style="color:black; position:fixed; left:553px; top:522px; text-decoration:none; border:solid 4px;" target="_blank">SUBMIT YOUR WORK!</a>
+		</div>
+
+
+
+	</div>
+
+
+</body>
+
+<script type="text/javascript" src="js/Main.js"></script>
+
+</html>
